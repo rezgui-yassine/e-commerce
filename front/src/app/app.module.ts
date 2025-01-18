@@ -5,8 +5,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './Components/home/home.component';
 import { NavbarComponent } from './Layouts/navbar/navbar.component';
 import { FooterComponent } from './Layouts/footer/footer.component';
-import { MainMarouselComponent } from './Components/home/main-marousel/main-marousel.component';
 import { RouterModule } from '@angular/router';
+import { MainCarouselComponent } from './Components/main-carousel/main-carousel.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { RouterModule } from '@angular/router';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    MainMarouselComponent
+    MainCarouselComponent
   ],
   imports: [
     BrowserModule,
